@@ -1,8 +1,13 @@
+import Footer from "../layout/Footer";
+import Navbar from "../layout/Navbar";
+
 function Home() {
     return (
         <div>
+            <Navbar/>
             <h1>Olá, mundo!</h1>
-            <h2>Chama!</h2>
+
+            <Footer />
         </div>
     );
 }
