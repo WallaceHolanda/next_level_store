@@ -8,10 +8,8 @@ function Home() {
         <div>
             <Navbar />
             <Carrossel/>
-
             <CardProduto titulo = "Produtos Mais Vendidos"/>
             <CardProduto titulo = "Últimas Novidades"/>
-
             <Footer />
         </div>
     );

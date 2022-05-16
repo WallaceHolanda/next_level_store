@@ -1,0 +1,26 @@
+.div_logo {
+    margin: auto;
+    justify-content: center;
+}
+
+.img_logo {
+    display: block;
+    margin: auto;
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+
+.frase {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+    padding-top: 10%;
+    text-align: center;
+
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+}
