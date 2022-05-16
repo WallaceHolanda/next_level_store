@@ -2,6 +2,7 @@ import styles from './Login.module.css';
 
 import imagemLogo from '../../../img/logo.png';
 import Logo from '../../Logo/Logo';
+import FormularioLogin from '../../FormularioLogin/FormularioLogin';
 
 function Login() {
     return (
@@ -11,10 +12,10 @@ function Login() {
                     logo={imagemLogo}
                     frase="O seu Marketplace de Jogos e Consoles"
                 />
-
             </div>
 
             <div className={styles.div_login}>
+                <FormularioLogin />
 
             </div>
 
