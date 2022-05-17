@@ -16,7 +16,6 @@ function Login() {
 
             <div className={styles.div_login}>
                 <FormularioLogin />
-
             </div>
 
 
