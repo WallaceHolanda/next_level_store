@@ -2,8 +2,7 @@ import imagemLogo from '../../../img/logo.png';
 import Logo from '../../Logo/Logo';
 
 import styles from '../Login/Login.module.css';
-//import FormularioCPF from '../../CadastroCPF/FormularioCadastro/FormularioCPF';
-import FormularioCPF from '../../FormularioCadastro/CadastroCPF/FormularioCPF';
+import FormularioPrimeiroPassoCNPJ from '../../FormularioCadastro/CadastroCNPJ/FormularioPrimeiroPassoCNPJ';
 
 function CadastroCPF(){
     return (
@@ -16,7 +15,7 @@ function CadastroCPF(){
             </div>
 
             <div className={styles.div_login}>
-                <FormularioCPF />
+                <FormularioPrimeiroPassoCNPJ />
             </div>
         </div>
     );

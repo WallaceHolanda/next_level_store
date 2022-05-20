@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/pages/Home/Home';
 import Login from './components/pages/Login/Login';
 import CadastroCPF from './components/pages/Cadastro/CadastroCPF';
+import CadastroCNPJ from './components/pages/Cadastro/CadastroCNPJ';
 
 function App() {
   return (
@@ -18,6 +19,11 @@ function App() {
       <Routes>
         <Route path='/cadastrocpf' element={<CadastroCPF/>}/>
       </Routes>
+
+      <Routes>
+        <Route path='/cadastrocnpj' element={<CadastroCNPJ/>}/>
+      </Routes>
+
     </Router>
   );
 }

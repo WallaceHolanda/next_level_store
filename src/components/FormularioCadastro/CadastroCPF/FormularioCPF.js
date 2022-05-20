@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import styles from '../FormularioLogin/FormularioLogin.module.css';
+import styles from '../../FormularioLogin/FormularioLogin.module.css';
 import stylesCPF from './FormularioCPF.module.css';
 
 function FormularioCPF() {
