@@ -16,7 +16,7 @@ function FormularioSegundoPassoCNPJ() {
                 Digite os dados da empresa para ter acesso às ofertas e promoções
             </p>
 
-            <Steps current={1} className = {stylesCNPJ.steps}>
+            <Steps current={1} className={stylesCNPJ.steps}>
                 <Steps.Item />
                 <Steps.Item />
                 <Steps.Item />
@@ -26,17 +26,30 @@ function FormularioSegundoPassoCNPJ() {
                 <label className={stylesCNPJ.label}>Endereço </label>
                 <input className={stylesCNPJ.input} type="text" name="endereco" placeholder="Digite o endereço da sua empresa" />
 
-                <label className={stylesCNPJ.label}>Bairro </label>
-                <input className={stylesCNPJ.input} type="text" name="bairro" placeholder="Digite o bairro" />
+                <div className={stylesCNPJ.divflex}>
+                    <div className={stylesCNPJ.divfield}>
+                        <label className={stylesCNPJ.label}>Bairro </label>
+                        <input className={stylesCNPJ.input} type="text" name="bairro" placeholder="Digite o bairro" />
+                    </div>
 
-                <label className={stylesCNPJ.label}>Numero </label>
-                <input className={stylesCNPJ.input} type="text" name="numero" placeholder="Digite o número" />
+                    <div>
+                        <label className={stylesCNPJ.label}>Número </label>
+                        <input className={stylesCNPJ.input} type="text" name="numero" placeholder="Digite o número" />
+                    </div>
 
-                <label className={stylesCNPJ.label}>Cidade </label>
-                <input className={stylesCNPJ.input} type="text" name="cidade" placeholder="Digite a cidade" />
+                </div>
 
-                <label className={stylesCNPJ.label}>Estado</label>
-                <input className={stylesCNPJ.input} type="text" name="estado" placeholder="Digite o estado" />
+                <div className={stylesCNPJ.divflex}>
+                    <div className={stylesCNPJ.divfield}>
+                        <label className={stylesCNPJ.label}>Cidade </label>
+                        <input className={stylesCNPJ.input} type="text" name="cidade" placeholder="Digite a cidade" />
+                    </div>
+
+                    <div>
+                        <label className={stylesCNPJ.label}>Estado </label>
+                        <input className={stylesCNPJ.input} type="text" name="estado" placeholder="Digite o estado" />
+                    </div>
+                </div>
 
             </form>
 
