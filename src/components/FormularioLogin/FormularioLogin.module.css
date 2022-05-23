@@ -1,0 +1,74 @@
+.div_formulario_login{
+    margin: auto;
+
+    /* Testando a Borda */
+    
+    /* border: rgba(49, 48, 51, 0.5);
+    border-width: 0.2px;
+    border-style: groove;
+    padding: 50px 80px;
+    border-radius: 2%; */
+}
+
+.bem_vindo {
+    color: #3C4F76;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.sub_titulo {
+    margin: 3% 0% 15%;
+    color: #56565A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.input {
+    display: block;
+    text-decoration: none;
+    border: none;
+
+    height: 30px;
+    width: 100%;
+    margin-bottom: 5%;
+
+    border: rgba(49, 48, 51, 0.1);
+    border-width: 1px;
+    border-style: groove;
+    background-color: #F8F8FA;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+    background-color: #3B5998;
+    color: #FFF;
+    font-size: 14px;
+
+    border-radius: 5px;
+    padding: 8px 40px;
+}
+
+.sem_conta {
+    color: #313033;
+    margin-bottom: 5%;
+    font-size: 14px;
+    text-align: center;
+
+}

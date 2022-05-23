@@ -1,0 +1,53 @@
+.sub_titulo {
+    margin: 3% 0% 5%;
+    width: 80%;
+    color: #56565A;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.input {
+    display: block;
+    text-decoration: none;
+    border: none;
+
+    height: 40px;
+     width: 100%; 
+    margin-bottom: 5%;
+
+    border: rgba(49, 48, 51, 0.1);
+    border-width: 1px;
+    border-style: groove;
+    background-color: #F8F8FA;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.input_date{
+    width: 50%;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+
+    background-color: #3B5998;
+    color: #FFF;
+    font-size: 14px;
+
+    border-radius: 5px;
+    padding: 10px 45px;
+}

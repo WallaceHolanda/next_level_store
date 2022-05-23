@@ -1,24 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+import Home from './components/pages/Home/Home';
+import Login from './components/pages/Login/Login';
+import CadastroCPF from './components/pages/Cadastro/CadastroCPF';
+import CadastroCNPJ from './components/pages/Cadastro/CadastroCNPJ';
+import CadastroCNPJP2 from './components/pages/Cadastro/CadastroCNPJP2';
+import CadastroCNPJP3 from './components/pages/Cadastro/CadastroCNPJP3';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path='/' element={<Home/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/login' element={<Login/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/cadastrocpf' element={<CadastroCPF/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/cadastrocnpj' element={<CadastroCNPJ/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/cadastrocnpjp2' element={<CadastroCNPJP2/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/cadastrocnpjp3' element={<CadastroCNPJP3/>}/>
+      </Routes>
+
+    </Router>
   );
 }
 
