@@ -35,7 +35,7 @@ function FormularioSegundoPassoCNPJ() {
                         <input className={stylesCNPJ.input} type="text" name="bairro" placeholder="Digite o bairro" />
                     </div>
 
-                    <div>
+                    <div className={stylesCNPJ.divfieldwithoutpadding}>
                         <label className={stylesCNPJ.label}>Número </label>
                         <input className={stylesCNPJ.input} type="text" name="numero" placeholder="Digite o número" />
                     </div>
@@ -48,7 +48,7 @@ function FormularioSegundoPassoCNPJ() {
                         <input className={stylesCNPJ.input} type="text" name="cidade" placeholder="Digite a cidade" />
                     </div>
 
-                    <div>
+                    <div className={stylesCNPJ.divfieldwithoutpadding}>
                         <label className={stylesCNPJ.label}>Estado </label>
                         <input className={stylesCNPJ.input} type="text" name="estado" placeholder="Digite o estado" />
                     </div>
@@ -56,7 +56,7 @@ function FormularioSegundoPassoCNPJ() {
 
             </form>
 
-            <Link to="/cadastrocnpjp3" className={stylesCNPJ.button}>Continuar</Link>
+            <Link id = "button" to="/cadastrocnpjp3" className={stylesCNPJ.button}>Continuar</Link>
 
         </div>
     );

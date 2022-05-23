@@ -38,7 +38,7 @@ function FormularioTerceiroPassoCNPJ() {
                         <input className={stylesCNPJ.input} type="text" name="banco" placeholder="Digite o nome do banco" />
                     </div>
 
-                    <div>
+                    <div className={stylesCNPJ.divfieldwithoutpadding}>
                         <label className={stylesCNPJ.label}>Tipo de Conta </label>
                         <input className={stylesCNPJ.input} type="text" name="tipoconta" placeholder="Digite o tipo da sua conta" />
                     </div>
@@ -51,7 +51,7 @@ function FormularioTerceiroPassoCNPJ() {
                         <input className={stylesCNPJ.input} type="text" name="agencia" placeholder="Digite o nome da sua agência" />
                     </div>
 
-                    <div>
+                    <div className={stylesCNPJ.divfieldwithoutpadding}>
                         <label className={stylesCNPJ.label}>Numero da conta </label>
                         <input className={stylesCNPJ.input} type="text" name="numeroconta" placeholder="Digite o número da conta" />
                     </div>

@@ -63,12 +63,19 @@
     margin: auto;
     margin-top: 5%;
 
-    background-color: #3B5998;
+ 
+    background-color:rgba(67, 188, 205, 1);
     color: #FFF;
     font-size: 14px;
 
     border-radius: 5px;
     padding: 10px 45px;
+} 
+
+.button:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3B5998;
 }
 
 .divflex {
@@ -80,4 +87,8 @@
 .divfield {
     width: 100%;
     padding-right: 10%;
+}
+
+.divfieldwithoutpadding {
+    width: 100%;
 }
