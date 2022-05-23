@@ -3,6 +3,7 @@ import { Steps } from 'rsuite';
 
 import 'rsuite/dist/rsuite.min.css';
 
+import PagePreviousIcon from '@rsuite/icons/PagePrevious';
 import styles from '../../FormularioLogin/FormularioLogin.module.css';
 import stylesCNPJ from './FormularioCNPJ.module.css';
 
@@ -10,7 +11,9 @@ function FormularioSegundoPassoCNPJ() {
     return (
 
         <div className={styles.div_formulario_login}>
-            <p className={styles.bem_vindo}>Crie sua conta</p>
+
+            <Link to="/cadastrocnpj" className={stylesCNPJ.linkback}><PagePreviousIcon /> Voltar</Link>
+            <p className={stylesCNPJ.bem_vindo}>Crie sua conta</p>
 
             <p className={stylesCNPJ.sub_titulo}>
                 Digite os dados da empresa para ter acesso às ofertas e promoções
@@ -53,7 +56,7 @@ function FormularioSegundoPassoCNPJ() {
 
             </form>
 
-            <Link to="/login" className={stylesCNPJ.button}>Continuar</Link>
+            <Link to="/cadastrocnpjp3" className={stylesCNPJ.button}>Continuar</Link>
 
         </div>
     );

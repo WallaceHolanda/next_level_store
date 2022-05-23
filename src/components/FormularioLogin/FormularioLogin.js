@@ -18,7 +18,7 @@ function FormularioLogin() {
 
             <Link to="/" className={styles.button}>Entrar</Link>
             <p className={styles.sem_conta}>Não possui uma conta? <Link to="/cadastrocpf">Cadastre-se</Link></p>
-            <p className={styles.sem_conta}>É pessoa jurídica? <Link to="/">Clique aqui</Link></p>
+            <p className={styles.sem_conta}>É pessoa jurídica? <Link to="/cadastrocnpj">Clique aqui</Link></p>
 
         </div>
     );

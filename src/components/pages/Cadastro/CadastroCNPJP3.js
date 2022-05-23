@@ -1,9 +1,9 @@
 import imagemLogo from '../../../img/logo.png';
 import Logo from '../../Logo/Logo';
 import styles from '../Login/Login.module.css';
-import FormularioSegundoPassoCNPJ from '../../FormularioCadastro/CadastroCNPJ/FormularioSegundoPassoCNPJ';
+import FormularioTerceiroPassoCNPJ from '../../FormularioCadastro/CadastroCNPJ/FormularioTerceiroPassoCNPJ';
 
-function CadastroCNPJP2(){
+function CadastroCNPJP3(){
     return (
         <div className={styles.div_geral}>
             <div className={styles.div_logo}>
@@ -14,10 +14,10 @@ function CadastroCNPJP2(){
             </div>
 
             <div className={styles.div_login}>
-                <FormularioSegundoPassoCNPJ />
+                <FormularioTerceiroPassoCNPJ />
             </div>
         </div>
     );
 }
 
-export default CadastroCNPJP2;
+export default CadastroCNPJP3;

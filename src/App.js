@@ -5,6 +5,7 @@ import Login from './components/pages/Login/Login';
 import CadastroCPF from './components/pages/Cadastro/CadastroCPF';
 import CadastroCNPJ from './components/pages/Cadastro/CadastroCNPJ';
 import CadastroCNPJP2 from './components/pages/Cadastro/CadastroCNPJP2';
+import CadastroCNPJP3 from './components/pages/Cadastro/CadastroCNPJP3';
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
 
       <Routes>
         <Route path='/cadastrocnpjp2' element={<CadastroCNPJP2/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/cadastrocnpjp3' element={<CadastroCNPJP3/>}/>
       </Routes>
 
     </Router>
