@@ -6,12 +6,17 @@ import CadastroCPF from './components/pages/Cadastro/CadastroCPF';
 import CadastroCNPJ from './components/pages/Cadastro/CadastroCNPJ';
 import CadastroCNPJP2 from './components/pages/Cadastro/CadastroCNPJP2';
 import CadastroCNPJP3 from './components/pages/Cadastro/CadastroCNPJP3';
+import Produto from './components/pages/Produto/Produto';
 
 function App() {
   return (
     <Router>
       <Routes>
         <Route exact path='/' element={<Home/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/visualizarproduto' element={<Produto/>}/>
       </Routes>
 
       <Routes>
@@ -33,7 +38,6 @@ function App() {
       <Routes>
         <Route path='/cadastrocnpjp3' element={<CadastroCNPJP3/>}/>
       </Routes>
-
     </Router>
   );
 }
