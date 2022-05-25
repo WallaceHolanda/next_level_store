@@ -14,7 +14,7 @@ function SearchBar() {
                 <Link className={styles.entreoucadastre} to="/">Olá, tudo bem? <br></br>Entre ou cadastre-se!</Link>
             </div>
             
-            <Link to="/login" className={styles.carrinho}><img src={carrinhoImage} alt="Carrinho"/></Link>
+            <Link to="/carrinho" className={styles.carrinho}><img src={carrinhoImage} alt="Carrinho"/></Link>
             
         </div>
     );
