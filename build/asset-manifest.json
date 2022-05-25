@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.39632122.css",
-    "main.js": "/static/js/main.706bb98c.js",
+    "main.css": "/static/css/main.f1d57145.css",
+    "main.js": "/static/js/main.d941d5fa.js",
     "static/media/propaganda.png": "/static/media/propaganda.5985bf0446483605e069.png",
+    "static/media/smartphone.png": "/static/media/smartphone.e3985f38d0d287f409a5.png",
+    "static/media/xbox.png": "/static/media/xbox.f7c76e826f94a6202e06.png",
     "static/media/game.png": "/static/media/game.1a68257cb293a087324d.png",
+    "static/media/smartphone2.png": "/static/media/smartphone2.e6b582e6a1ca99a34bcf.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.39632122.css.map": "/static/css/main.39632122.css.map",
-    "main.706bb98c.js.map": "/static/js/main.706bb98c.js.map"
+    "main.f1d57145.css.map": "/static/css/main.f1d57145.css.map",
+    "main.d941d5fa.js.map": "/static/js/main.d941d5fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.39632122.css",
-    "static/js/main.706bb98c.js"
+    "static/css/main.f1d57145.css",
+    "static/js/main.d941d5fa.js"
   ]
 }
