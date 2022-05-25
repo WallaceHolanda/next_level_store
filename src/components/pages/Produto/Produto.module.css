@@ -13,6 +13,10 @@
     border-right: 1px solid gray;
 }
 
+.segundaColuna {
+    padding-top: 5%;
+}
+
 .galeria {
     display: flex;
     align-items: center;
@@ -24,4 +28,140 @@
     height: 70%;
 }
 
+.produtoinfo {
+    padding-left: 3%;
+    padding-bottom: 1%;
+    font-size: 24px;
+    color: rgba(35, 59, 108, 1);
+}
 
+.descricao {
+    margin: auto;
+    width: 94%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.nomeproduto {
+    padding-top: 2%;
+    padding-left: 3%;
+    color: rgba(60, 79, 118, 1);
+}
+
+SearchField {
+    background-color: black;
+}
+
+.busca {
+    display: flex;
+    background-color: #283859;
+    padding: 1em;
+    justify-content: center;
+}
+
+.opcoesproduto {
+    padding-left: 3%; 
+}
+
+.textoestrelas {
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-right: 1%;
+    color: rgba(35, 59, 108, 1);
+}
+
+.label {
+    color: rgba(35, 59, 108, 1);
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.input {
+    display: block;
+    text-decoration: none;
+    border: none;
+
+    height: 40px;
+    width: 40%; 
+    margin-bottom: 5%;
+
+    border: rgba(49, 48, 51, 0.1);
+    border-width: 1px;
+    border-style: groove;
+    background-color: #F8F8FA;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+
+    background-color:rgba(67, 188, 205, 1);
+    color: #FFF;
+    font-size: 14px;
+
+    border-radius: 5px;
+    padding: 10px 45px;
+} 
+
+.button:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3B5998;
+}
+
+.prazofrete {
+    padding: 5% 0% 3% 0%;
+}
+
+.inputcep {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    height: 40px;
+    width: 50%; 
+    margin-bottom: 5%;
+
+    border: rgba(49, 48, 51, 0.1);
+    border-width: 1px;
+    border-style: groove;
+    background-color: #FFF;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.buttoncep {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    margin-left: -11%; 
+    height: 35px;
+    width: 11%;
+    
+    background-color:rgba(243, 242, 245, 1);
+    color: rgba(86, 86, 90, 1);
+    font-size: 14px;
+    border-radius: 18px;
+} 
+
+.inputcep::placeholder {
+    color: rgba(86, 86, 90, 1);
+    padding-left: 3%;
+}
+
+.buttoncep:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3B5998;
+}
