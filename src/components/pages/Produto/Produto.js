@@ -29,13 +29,10 @@ function Produto() {
 
                 <div className={styles.panel}>
                     <Column>
-
                         <div className={styles.galeria}>
                             <img className={styles.imgcelular} src={produtoImage} />
                         </div>
-
                     </Column>
-
 
                     <Column className={styles.segundaColuna}>
                         <label className={styles.label}>Cor </label>
@@ -66,10 +63,10 @@ function Produto() {
 
                         <Link to="/" className={styles.button}>Continuar</Link>
                         
-                        <h6>Prazo e Frete</h6>
+                        <h6 className={styles.prazofrete}>Prazo e Frete</h6>
                         <div>
-                            <input placeholder="O que você está procurando? " />
-                            <button>OK</button>
+                            <input className={styles.inputcep} placeholder="00000-000" />
+                            <button className={styles.buttoncep}>OK</button>
                         </div>
 
 

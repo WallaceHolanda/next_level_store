@@ -118,3 +118,50 @@ SearchField {
     color: #FFF;
     background-color: #3B5998;
 }
+
+.prazofrete {
+    padding: 5% 0% 3% 0%;
+}
+
+.inputcep {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    height: 40px;
+    width: 50%; 
+    margin-bottom: 5%;
+
+    border: rgba(49, 48, 51, 0.1);
+    border-width: 1px;
+    border-style: groove;
+    background-color: #FFF;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.buttoncep {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    margin-left: -11%; 
+    height: 35px;
+    width: 11%;
+    
+    background-color:rgba(243, 242, 245, 1);
+    color: rgba(86, 86, 90, 1);
+    font-size: 14px;
+    border-radius: 18px;
+} 
+
+.inputcep::placeholder {
+    color: rgba(86, 86, 90, 1);
+    padding-left: 3%;
+}
+
+.buttoncep:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3B5998;
+}
