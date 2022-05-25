@@ -26,6 +26,13 @@
     margin: auto;
 }
 
+.img2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    margin: auto;
+}
+
 .product_title {
     color: #233B6C;
     font-size: 17px;

@@ -3,7 +3,8 @@ import 'react-multi-carousel/lib/styles.css';
 
 import styles from './CardProduto.module.css';
 import item1 from '../../../../img/game.png';
-
+import item2 from '../../../../img/smartphone2.png';
+import { Link } from 'react-router-dom';
 
 
 const responsive = {
@@ -32,11 +33,11 @@ function CardProduto({titulo}) {
         <p className={styles.title}>{titulo}</p>
         <Carousel className={styles.card_list} responsive={responsive}>
             <div className={styles.card}>
-              <img className={styles.img} src={item1} alt="Item1"/>
-              <p className={styles.product_title}>GTA San Andreas - Ps3 Version</p>
-              <p className={styles.product_price}> R$55,00</p>
+              <img className={styles.img2} src={item2} alt="Item1"/>
+              <p className={styles.product_title}>Smartphone Xiaomi Redmi Note 9s</p>
+              <p className={styles.product_price}> R$1699,00</p>
               <p className={styles.product_store}>Maria Store</p>
-              <button className={styles.button}>Adicionar ao Carrinho</button>
+              <Link to='/visualizarproduto'><button className={styles.button}>Adicionar ao Carrinho</button></Link>
             </div>
 
             <div className={styles.card}>

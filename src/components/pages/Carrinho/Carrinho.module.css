@@ -38,9 +38,28 @@
 }
 
 .produto {
+    display: flex;
+    float: left;
     width: 60%;
     height: 30vh;
-    background-color: blue;
+    /* background-color: blue; */
+}
+
+.prodimg {
+    padding-left: 10%;
+}
+
+.descprod {
+    padding-left: 5%;
+    padding-top: 3%;
+}
+
+.descprod p {
+    padding-bottom: 2%;
+}
+
+.descprod h4 {
+    color: rgba(60, 79, 118, 1);
 }
 
 .quantidade {
@@ -55,7 +74,65 @@
     /* background-color: black; */
 }
 
+.input {
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    border: none;
+
+    height: 40px;
+    width: 40%; 
+
+    margin-top: 10%;
+
+    border: rgba(49, 48, 51, 0.1);
+    border-width: 1px;
+    border-style: groove;
+    background-color: #F8F8FA;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
 .novopreco {
     padding: 5% 0% 0% 5%;
+}
 
+.divsubtotal {
+    display: flex;
+}
+
+.subtotal {
+    width: 70%;
+    height: 25vh;
+    padding-top: 1%;
+    padding-right: 2%;
+    text-align: right;
+}
+
+.valor {
+    width: 30%;
+    height: 25vh;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+
+    background-color:rgba(67, 188, 205, 1);
+    color: #FFF;
+    font-size: 14px;
+
+    border-radius: 5px;
+    padding: 10px 45px;
+} 
+
+.button:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3B5998;
 }
