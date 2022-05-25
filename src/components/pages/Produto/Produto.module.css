@@ -13,6 +13,10 @@
     border-right: 1px solid gray;
 }
 
+.segundaColuna {
+    padding-top: 15%;
+}
+
 .galeria {
     display: flex;
     align-items: center;
@@ -24,4 +28,130 @@
     height: 70%;
 }
 
+.produtoinfo {
+    padding-left: 3%;
+    padding-bottom: 1%;
+    font-size: 24px;
+    color: rgba(35, 59, 108, 1);
+}
 
+.descricao {
+    margin: auto;
+    width: 94%;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.nomeproduto {
+    padding-top: 2%;
+    padding-left: 1%;
+    color: rgba(60, 79, 118, 1);
+}
+
+SearchField {
+    background-color: black;
+}
+
+.busca {
+    display: flex;
+    background-color: #283859;
+    padding: 1em;
+    justify-content: center;
+}
+
+.opcoesproduto {
+    padding-left: 1%; 
+}
+
+.textoestrelas {
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 2%;
+    padding-right: 1%;
+    color: rgba(35, 59, 108, 1);
+}
+
+.label {
+    color: rgba(35, 59, 108, 1);
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 1%;
+}
+
+.input {
+    display: block;
+    text-decoration: none;
+    border: none;
+
+    height: 40px;
+    width: 40%; 
+    margin-bottom: 5%;
+
+    border: rgba(49, 48, 51, 0.1);
+    border-width: 1px;
+    border-style: groove;
+    background-color: #F8F8FA;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+
+    width: 60%;
+    justify-content: center;
+    display: flex;
+    margin-top: 5%;
+
+    background-color:rgba(67, 188, 205, 1);
+    color: #FFF;
+    font-size: 14px;
+
+    border-radius: 5px;
+    padding: 10px 45px;
+} 
+
+.button:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #3B5998;
+}
+
+.divbusca {
+    display: flex;
+    background-color: #283859;
+    color: #FFF;
+    padding: 1em;
+    justify-content: center;
+}
+
+.inputbusca {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    height: 40px;
+    width: 40%; 
+
+    background-color: rgba(92, 112, 153, 1);
+    color: #FFF;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.buttonbusca {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    /* margin-left: -2%; */
+    height: 40px;
+    width: 5%;
+
+    background-color:rgba(92, 112, 153, 1);
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 15px;
+}
