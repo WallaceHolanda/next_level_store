@@ -3,6 +3,7 @@ import styles from './Carrinho.module.css';
 import { Link } from 'react-router-dom';
 
 import smartphoneimg from '../../../img/xbox.png';
+import Footer from "../../layout/Footer";
 
 function Carrinho() {
     return (
@@ -65,12 +66,13 @@ function Carrinho() {
                             <p>R$ 1699,00 à vista</p>
                         </div>
 
-                        <Link to="/" className={styles.button}>Continuar</Link>
+                        <Link to="/pagamento" className={styles.button}>Continuar</Link>
 
                     </div>
 
                 </div>
             </div>
+            <Footer />
         </div>
     );
 }

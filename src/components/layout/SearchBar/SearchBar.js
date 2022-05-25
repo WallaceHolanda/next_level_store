@@ -11,7 +11,7 @@ function SearchBar() {
             <button className={styles.buttonbusca}><SearchIcon /></button>
 
             <div className={styles.diventreoucadastre}>
-                <Link className={styles.entreoucadastre} to="/">Olá, tudo bem? <br></br>Entre ou cadastre-se!</Link>
+                <Link className={styles.entreoucadastre} to="/login">Olá, tudo bem? <br></br>Entre ou cadastre-se!</Link>
             </div>
             
             <Link to="/carrinho" className={styles.carrinho}><img src={carrinhoImage} alt="Carrinho"/></Link>

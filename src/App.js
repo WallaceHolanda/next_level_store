@@ -8,6 +8,7 @@ import CadastroCNPJP2 from './components/pages/Cadastro/CadastroCNPJP2';
 import CadastroCNPJP3 from './components/pages/Cadastro/CadastroCNPJP3';
 import Produto from './components/pages/Produto/Produto';
 import Carrinho from './components/pages/Carrinho/Carrinho';
+import Pagamento from './components/pages/Pagamento/Pagamento';
 
 function App() {
   return (
@@ -42,6 +43,10 @@ function App() {
 
       <Routes>
         <Route path='/carrinho' element={<Carrinho/>}/>
+      </Routes>
+
+      <Routes>
+        <Route path='/pagamento' element={<Pagamento/>}/>
       </Routes>
     </Router>
   );
