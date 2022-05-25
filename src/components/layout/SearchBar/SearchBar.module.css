@@ -1,0 +1,60 @@
+.divbusca {
+    display: flex;
+    background-color: #283859;
+    color: #FFF;
+    padding: 1em;
+    justify-content: center;
+}
+
+.inputbusca {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    height: 40px;
+    width: 50%; 
+
+    margin-left: 15%;
+    background-color: rgba(92, 112, 153, 1);
+    color: black;
+    border-radius: 15px;
+    text-indent: 10px;
+}
+
+.buttonbusca {
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+    margin-left: -2%; 
+    height: 40px;
+    width: 5%;
+
+    background-color:rgba(92, 112, 153, 1);
+    color: #FFF;
+    font-size: 14px;
+    border-radius: 15px;
+}
+
+input::placeholder {
+  color: #FFF;
+  padding-left: 3%;
+}
+
+.diventreoucadastre {
+    margin-left: 8%;
+}
+
+.entreoucadastre {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.entreoucadastre:hover {
+    text-decoration: none;
+    color: rgba(149, 220, 229, 1);
+}
+
+.carrinho {
+    margin-left: 8%;
+}

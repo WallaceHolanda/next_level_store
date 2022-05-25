@@ -4,23 +4,19 @@ import { Row, Column } from 'react-foundation';
 import { Link } from 'react-router-dom';
 
 import ReactStars from "react-rating-stars-component";
-import SearchIcon from '@rsuite/icons/Search';
 
 import styles from './Produto.module.css';
 import Footer from "../../layout/Footer";
 import Navbar from "../../layout/Navbar";
 import CardProduto from '../Home/Produto/CardProduto';
 import produtoImage from '../../../img/smartphone.png';
+import SearchBar from '../../layout/SearchBar/SearchBar';
 
 function Produto() {
     return (
         <div>
 
-            <div className={styles.divbusca}>
-                <input className={styles.inputbusca} placeholder="O que você está procurando? "/>
-                <button className={styles.buttonbusca}><SearchIcon /></button>
-            </div>
-
+            <SearchBar />
             <Navbar />
             <h2 className={styles.nomeproduto}> Smartphone Xiaomi Redmi Note 9s </h2>
 
@@ -62,13 +58,20 @@ function Produto() {
                             <p className={styles.textoestrelas}>Avaliação </p>
                             <ReactStars
                                 count={5}
-                                value={5}
+                                value={4}
                                 size={23}
                                 activeColor="#ffd700"
                             />
                         </div>
 
-                        <Link to="/cadastrocnpjp2" className={styles.button}>Continuar</Link>
+                        <Link to="/" className={styles.button}>Continuar</Link>
+                        
+                        <h6>Prazo e Frete</h6>
+                        <div>
+                            <input placeholder="O que você está procurando? " />
+                            <button>OK</button>
+                        </div>
+
 
                     </Column>
                 </div>
@@ -83,6 +86,13 @@ function Produto() {
                     oferecem a melhor experiência para você ver seus conteúdos de maneira mais imersiva e com visual
                     impressionante. Tem 64GB de armazenamento interno, ele é ideal para guardar suas fotos, músicas
                     ou vídeos!
+
+                    E se mesmo assim achar pouco, você pode usar um cartão MicroSD de até 512GB para aumentar essa capacidade.
+                    Este produto tem um processador Snapdragon 720G Octa-Core e 4GB de memória RAM, e assim potencializar
+                    seus jogos favoritos. A cor cinza destaca o design do smartphone, garantindo maior elegância em suas mãos.
+                    Fique sempre conectado com a tecnologia 4G+ em um aparelho dual chip! Tenha bateria para o dia todo, afinal
+                    estamos falando de 5020mAh, além de contar com carregamento rápido de 18W. Esse celular entrega proteção
+                    personalizada com impressão digital, deixando seus conteúdos e dados confidenciais protegidos.
                 </p>
 
                 <CardProduto titulo="Quem viu esse produto viu estes também" />

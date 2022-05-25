@@ -14,7 +14,7 @@ function Navbar() {
                 </li>
 
                 <li className={styles.item}>
-                    <Link to="/">Ofertas do Dia</Link>
+                    <Link to="/">Jogos em Pré-Venda</Link>
                 </li>
 
                 <li className={styles.item}>
@@ -22,12 +22,21 @@ function Navbar() {
                 </li>
 
                 <li className={styles.item}>
-                    <Link to="/">Tv e Vídeo</Link>
+                    <Link to="/">Consoles</Link>
                 </li>
 
                 <li className={styles.item}>
-                    <Link to="/">Informática</Link>
+                    <Link to="/">Smartwatches</Link>
                 </li>
+
+                <li className={styles.item}>
+                    <Link to="/">Headphones</Link>
+                </li>
+
+                <li className={styles.item}>
+                    <Link to="/">Webcams</Link>
+                </li>
+                
             </ul>
         </nav>
     );

@@ -14,7 +14,7 @@
 }
 
 .segundaColuna {
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .galeria {
@@ -44,7 +44,7 @@
 
 .nomeproduto {
     padding-top: 2%;
-    padding-left: 1%;
+    padding-left: 3%;
     color: rgba(60, 79, 118, 1);
 }
 
@@ -60,7 +60,7 @@ SearchField {
 }
 
 .opcoesproduto {
-    padding-left: 1%; 
+    padding-left: 3%; 
 }
 
 .textoestrelas {
@@ -117,41 +117,4 @@ SearchField {
     text-decoration: none;
     color: #FFF;
     background-color: #3B5998;
-}
-
-.divbusca {
-    display: flex;
-    background-color: #283859;
-    color: #FFF;
-    padding: 1em;
-    justify-content: center;
-}
-
-.inputbusca {
-    text-decoration: none;
-    border: none;
-    outline: none;
-
-    height: 40px;
-    width: 40%; 
-
-    background-color: rgba(92, 112, 153, 1);
-    color: #FFF;
-    border-radius: 15px;
-    text-indent: 10px;
-}
-
-.buttonbusca {
-    text-decoration: none;
-    border: none;
-    outline: none;
-
-    /* margin-left: -2%; */
-    height: 40px;
-    width: 5%;
-
-    background-color:rgba(92, 112, 153, 1);
-    color: #FFF;
-    font-size: 14px;
-    border-radius: 15px;
 }
